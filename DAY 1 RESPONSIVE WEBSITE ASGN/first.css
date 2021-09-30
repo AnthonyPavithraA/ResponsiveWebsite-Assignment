@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+
+.container{
+    width: 100%;
+    background-color: aqua;
+    display: inline-block;
+}
+
+.card{
+    height: 300px;
+    width: 19%;
+    background-color: burlywood;
+    display: inline-block;
+}
+
+/* media queries for tablet */
+
+@media (max-width:750px){
+
+    .card{
+        width: 40%;
+        /* background-color: gray; */
+    }
+}
+
+/* media queries for mobile */
+
+@media (max-width:450px){
+
+    .card{
+        width: 100%;
+        /* background-color: coral; */
+    }
+}
